@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img {
+    max-width: 100%;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+.navbar {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    flex: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 50px;
+}
+
+.log-car {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.log-car a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.carrinho-compra {
+    width: 50px;
+}
+
+.carrinho-compra img {
+    max-width: 100%;
+}
+
+
+/* SOBRE A MARCA */
+
+.container-1 {
+    margin: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 20px solid black;
+    background-color: #232323;
+    padding: 35px 10px 35px 35px;
+}
+
+.textos {
+    margin: 30px;
+    flex: 20%;
+    color: white;
+}
+
+.textos h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+
+    
+
+}
+
+.btn-saiba-mais {
+    flex: 100%;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.btn-saiba-mais a {
+    padding: 15px 60px;
+    background-color: aliceblue;
+    color: #232323;
+    border-radius: 5px; 
+    text-decoration: none;
+}
+
+.btn-saiba-mais a:hover {
+    background-color: rgb(155, 155, 155);
+    color: aliceblue;
+}
+
+.textos p {
+    height: 159px;
+    width: 620px;
+    font-family: Arial;
+    font-size: 23px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+
+
+}
+
+.logo-fundo {
+    margin: 30px;
+    flex: 22%;
+
+    text-align: left;
+    background-color: #232323;
+
+}
+.logo-fundo img {
+    max-width: 100%;
+}
+
+
+/* CONTAINER 2 */
+
+
+
+.container-img h2 {
+    grid-column: 1/5;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight:900;
+}
+
+.container-img {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    align-items: flex-end;
+}
+
+.img-street {
+    background-color: rgba(89, 89, 89, 1);
+    border: 20px solid black;
+}
+
+.img-games {
+    background-color: rgba(89, 89, 89, 1);
+    
+    border-top: 20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.linhas {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+
+.img-serie {
+    background-color: rgba(89, 89, 89, 1);
+    border-top: 20px solid black;
+    border-left: 20px solid black;
+    border-bottom: 20px solid black;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    height: 290px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-3 {
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto-footer {
+    flex: 70%;
+    color: white;
+}
+
+.img-footer {
+    width: 80px;
+    
+}

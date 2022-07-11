@@ -18,9 +18,13 @@
     .container-1 {
         display: flex;
         flex-flow: column wrap;
+        border: 10px solid black;
     }
-
+    .img-footer {
+        width: 10%;
+    }
     .textos {
+        text-align: center;
         display: flex;
         flex-flow: column wrap;
         align-items: center;

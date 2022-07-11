@@ -39,6 +39,7 @@
 @media screen and (max-width: 600px) {
     .container-1 {
         margin-top: 70px;
+        margin-bottom: 130px;
     }
 
     .textos p {
@@ -88,5 +89,10 @@
     .linhas {
         font-size: 20px;
         height: 45px;
+    }
+
+    .footer {
+        height: 200px;
+        margin-top: 150px;
     }
 }

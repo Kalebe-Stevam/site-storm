@@ -121,7 +121,6 @@ img {
     color: #232323;
     border-radius: 5px; 
     text-decoration: none;
-    margin-bottom: 30px;
 }
 
 .btn-saiba-mais a:hover {
@@ -181,6 +180,7 @@ img {
     border-right: 20px solid black;
     border-bottom: 20px solid black;
 }
+
 .linhas {
     font-size: 35px;
     display: flex;

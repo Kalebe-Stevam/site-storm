@@ -31,8 +31,62 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-
     .linhas {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-1 {
+        margin-top: 70px;
+    }
+
+    .textos p {
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: normal;
+    }
+    .textos h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .btn-saiba-mais a{
+
+        padding: 7px 34px;
+    }
+
+    .logo img {
+        max-width: 60%;
+    }
+    .carrinho-compra img {
+        max-width: 75%;
+    }
+    .menu-bar img {
+        max-width: 75%;
+    }
+
+    .log-car {
+        gap: 10px;
+    }
+
+    .img-street {
+        border: 12px solid black;
+    }
+
+    .img-serie {
+        border-top: 12px solid black;
+        border-left: 12px solid black;
+        border-bottom: 12px solid black;
+    }
+    
+    .img-games {
+        border-top: 12px solid black;
+        border-right: 12px solid black;
+        border-bottom: 12px solid black;
+    }
+    .linhas {
+        font-size: 20px;
+        height: 45px;
     }
 }

@@ -34,9 +34,25 @@
     .linhas {
         font-size: 25px;
     }
+    
+    .logo img {
+        max-width: 60%;
+    }
+    .carrinho-compra img {
+        max-width: 75%;
+    }
+    .menu-bar img {
+        max-width: 75%;
+    }
+
+    .log-car {
+        gap: 10px;
+    }
+
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 775px) {
     .container-1 {
         margin-top: 70px;
         margin-bottom: 130px;
@@ -57,35 +73,6 @@
         padding: 7px 34px;
     }
 
-    .logo img {
-        max-width: 60%;
-    }
-    .carrinho-compra img {
-        max-width: 75%;
-    }
-    .menu-bar img {
-        max-width: 75%;
-    }
-
-    .log-car {
-        gap: 10px;
-    }
-
-    .img-street {
-        border: 12px solid black;
-    }
-
-    .img-serie {
-        border-top: 12px solid black;
-        border-left: 12px solid black;
-        border-bottom: 12px solid black;
-    }
-    
-    .img-games {
-        border-top: 12px solid black;
-        border-right: 12px solid black;
-        border-bottom: 12px solid black;
-    }
     .linhas {
         font-size: 20px;
         height: 45px;
@@ -94,5 +81,21 @@
     .footer {
         height: 200px;
         margin-top: 150px;
+    }
+    .container-img {
+        margin: 10%;
+        display: grid;
+        grid-template-columns: 100%;
+     
+    }
+
+    .img-serie, .img-street, .img-games{
+        grid-column: 1/4;
+        border: 12px solid black;
+
+    }
+    .img-street {
+        border-bottom: 0;
+        border-top: 0;
     }
 }
